@@ -9,8 +9,8 @@ Passes the command line arguments to the server in a struct via message queue. I
 
 For running these programs, command line arguments are used.
 
-For server:  server "serverQueueName" 
+For server:  /server "serverQueueName" 
 
-For client:  client "serverQueueName" "keyword" N "file1" …"fileN"
+For client:  /client "serverQueueName" "keyword" N "file1" …"fileN"
 
 
